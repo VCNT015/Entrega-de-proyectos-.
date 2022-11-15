@@ -9,6 +9,7 @@ const accionEvento = (event) => {
     const altura = miFormulario.elements.altura.value;
     const ancho = miFormulario.elements.ancho.value;
     const color = miFormulario.elements.color.value;
+    const textoPantalla = document.getElementById("textoPantalla");
     
     console.log("altura", altura, "ancho", ancho, "color", color);
 
@@ -16,6 +17,9 @@ const accionEvento = (event) => {
     pantalla.style.width = ancho + "px"
     pantalla.style.height = altura + "px"
     pantalla.style.background = color
+    const valor = document.getElementById("texto").value;
+    console.log(valor)
+    textoPantalla.innerText=valor
 }
 
 
