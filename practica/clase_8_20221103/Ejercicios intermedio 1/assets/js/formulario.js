@@ -18,7 +18,7 @@ const accionEvento = (event) => {
     pantalla.style.height = altura + "px"
     pantalla.style.background = color
     const valor = document.getElementById("texto").value;
-    console.log(valor)
+    // console.log(valor)
     textoPantalla.innerText=valor
 }
 
