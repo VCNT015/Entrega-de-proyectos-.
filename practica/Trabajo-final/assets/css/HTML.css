@@ -1,0 +1,45 @@
+ body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #030113;
+    padding: 0 80px 80px 80px;
+    border: 5px solid rgb(95, 18, 18);
+  } 
+  h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #992626;
+    text-shadow: 3px 3px 1px black;
+  }
+
+P {color:rgb(0, 0, 0); 
+    font-size:20px;
+    font-family:Courier;
+    font-weight:bold;
+    font-style:italic;
+    line-height:30px;
+    letter-spacing:5px;
+    text-decoration:unset;
+    text-transform:capitalize;
+    text-align:left;}
+
+    h2{
+        margin: 0;
+        padding: 20px 0;
+        color: #992626;
+        text-shadow: 3px 3px 1px black;
+    }
+    ul{
+        color: white;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      footer{
+        margin: 0;
+        padding: 20px 0;
+        color: #992626;
+        text-shadow: 3px 3px 1px black;
+      }

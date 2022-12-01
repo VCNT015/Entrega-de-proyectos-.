@@ -8,8 +8,17 @@ app.use(express.static('assets'));
  app.get('/', function (req, res) {
    res.sendFile(__dirname + "/vista/index.html");
  });
-app.get('/cv.html', function (req, res) {
+app.get('/cv', function (req, res) {
     res.sendFile(__dirname + "/vista/cv.html");
+});
+app.get('/flex', function (req, res) {
+  res.sendFile(__dirname + "/vista/flex.html");
+});
+app.get('/formulario', function (req, res) {
+  res.sendFile(__dirname + "/vista/formulario.html");
+});
+app.get('/HTML', function (req, res) {
+  res.sendFile(__dirname + "/vista/HTML.html");
 });
 
 
